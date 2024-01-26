@@ -1,0 +1,45 @@
+body {
+  min-width: 260px;
+  max-width: 500px;
+}
+
+.go-to-option {
+  display: none;
+}
+
+.files:empty {
+  display: none;
+}
+
+.files {
+  padding-inline-start: 20px;
+}
+
+.files li {
+  cursor: pointer;
+  border-bottom: 1px solid #dedede;
+  padding: 6px 0;
+  display: table;
+}
+
+.files li span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.files li:last-child {
+  border-bottom: none;
+}
+
+.files li:hover {
+  background: #f8f7f7;
+}
+
+.delete-file {
+  margin-left: 5px;
+  padding: 5px;
+  background-color: rgb(255, 137, 137);
+}
+.delete-file:hover {
+  background-color: rgb(244, 37, 37);
+}
